@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4008ea6b-0842-4c46-8fc7-c96aab4e7112" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="AddPageWebPart.2015.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="AddPageWebPart.2015, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6576b775e98fe246" Namespace="AddPageWebPart._2015.AddNewPage" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="AddPageWebPart.2015_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

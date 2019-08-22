@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Add New Page WebPart Feature" Id="7c9406b7-fabe-417c-aedc-69366a305530" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="AddNewPage\Elements.xml" />
+    <ElementFile Location="AddNewPage\AddNewPage.webpart" />
+  </ElementManifests>
+</Feature>
